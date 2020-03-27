@@ -86,3 +86,21 @@ body {
 	border-radius: 0 0 75px 0;
 	padding: 20px;
 }
+
+@media (max-width: 640px) {
+body {
+	flex-wrap: wrap;
+}
+
+.perfil {
+	width: calc((100% - 20px) / 2);
+	margin-bottom: 20px;
+}
+}
+
+@media (max-width: 450px) {
+
+.perfil {
+	width: 100%;
+}
+}
